@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+
+/* body {
+    background-color: #C2B37D;
+} */
+
+nav {
+    background: linear-gradient(180deg, #596DB3 19.31%, rgba(248, 0, 0, 0) 100%);
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    height: 100px;
+}
+
+
+/* nav h1 {
+    margin: 10px 10px 10px 10px;
+} */
+
+nav ul {
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    /* display: block; */
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: white;
+    transition: .3s ease;
+}
+
+
+/* nav ul li:first-child {
+    margin-right: auto;
+} */
+
+.container {
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+    left: 106px;
+    top: 786px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 393.48px;
+    margin: 30px;
+    border-radius: 40px;
+    transition: .4s;
+}
+
+.card-image {
+    width: 393.48px;
+    height: 532px;
+    background-size: cover;
+    border-radius: 40px 40px 0 0;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card a {
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0 0 40px 40px;
+    text-decoration: none;
+}
+
+.card .one {
+    background-color: green;
+}
+
+.card .two {
+    background-color: #8888EE;
+}
+
+.card .three {
+    background-color: #F97B7B;
+}
+
+.card .four {
+    background-color: green;
+}
+
+.card .five {
+    background-color: #8888EE;
+}
+
+.card .six {
+    background-color: #F97B7B;
+}
+
+.img-1 {
+    background-image: url("images/card1.jpg");
+}
+
+.img-2 {
+    background-image: url("images/card2.jpg");
+}
+
+.img-3 {
+    background-image: url("images/card3.jpg");
+}
+
+.img-4 {
+    background-image: url("images/Valley.jpg");
+}
+
+.img-5 {
+    background-image: url("images/cottage.jpg");
+}
+
+.img-6 {
+    background-image: url("images/beach.jpg");
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 113.4%;
+    justify-content: center;
+    padding: 30px 200px 30px 200px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 113.4%;
+    justify-content: center;
+    padding: 20px 200px 20px 200px;
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container4 button {
+    width: 157px;
+    height: 66px;
+    border-radius: 24px;
+    margin: 25px 25px;
+}
+
+.b1 {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    transition: .4s;
+}
+
+.b1:hover {
+    transform: scale(1.1);
+}
+
+.b2 {
+    background: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    transition: .4s;
+}
+
+.b2:hover {
+    transform: scale(1.1);
+}
+
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: linear-gradient(180deg, #596DB3 19.31%, rgba(248, 0, 0, 0) 100%);
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.download img {
+    width: 170.39px;
+    height: 82px;
+    margin: 10px 10px 10px 10px;
+    transition: .3s;
+}
+
+.download img:hover {
+    transform: scale(1.1);
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
